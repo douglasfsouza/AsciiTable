@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Plugin.MauiMTAdmob.Controls;assembly=Plugin.MauiMtAdmob"
+             x:Class="AsciiTable.MainPage">
+    
+    <!--ESTE LAYOUT NÃO ESTÁ SENDO UTILIZADO, ESTOU UTILIZANDO O LAYOUT DE CÓDIGO C# NO CODE BEHIDE-->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Privacy Policy" Order="Secondary" Clicked="ToolbarItem_Clicked" />
+        <ToolbarItem Text="Terms of Use" Order="Secondary"  Clicked="ToolbarItem_Clicked_1" />
+        <ToolbarItem Text="Exit" x:Name="tbExit" Order="Secondary"  Clicked="tbExit_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <Grid Padding="10"
+          RowSpacing="10"
+          ColumnSpacing="10"
+          RowDefinitions="auto, auto, auto, auto, auto, auto, auto"
+          ColumnDefinitions=".45*, .45*"
+          MaximumWidthRequest="350">
+
+        <Label Text="Character"
+           FontSize="Header"
+           HorizontalTextAlignment="Center"
+           FontAttributes="Bold"/>
+
+        <Label Text="Decimal"
+           FontSize="Header"
+           Grid.Column="2"
+           HorizontalTextAlignment="Center"
+           FontAttributes="Bold" />
+
+        <Entry x:Name="txtChar" 
+           Placeholder="Type a character"
+           MaxLength="1"
+           FontSize="15"
+           HorizontalTextAlignment="Center"
+           PlaceholderColor="BlueViolet"
+           HeightRequest="50"
+           BackgroundColor="AliceBlue"
+           FontAttributes="Bold"
+           Grid.Row="1"/>
+
+        <Entry x:Name="txtAsc" 
+           Placeholder="Or type an AscII" 
+           Grid.Column="2"
+           FontSize="15"
+           MaxLength="3"               
+           HorizontalTextAlignment="Center"
+           PlaceholderColor="BlueViolet"
+           HeightRequest="50"
+           BackgroundColor="AliceBlue"
+           FontAttributes="Bold"
+           Grid.Row="1"/>
+
+        <Button x:Name="btnConvertToAsc" 
+                Text="Convert to Decimal" 
+                Grid.Row="2" 
+                FontSize="13"
+                Clicked="btnConvertToAsc_Clicked"
+                HeightRequest="50"/>
+
+        <Button x:Name="btnConvertToChar" 
+                Text="Convert to Char" 
+                Grid.Row="2" 
+                Grid.Column="2"
+                FontSize="13"
+                Clicked="btnConvertToChar_Clicked"
+                HeightRequest="50" />
+
+        <Image Source="ascii_table.png"
+           Grid.ColumnSpan="2"
+           Grid.Row="3"/>
+
+        <controls:MTAdView x:Name="adView" 
+                           Grid.Row="4"
+                           Margin="5"
+                           AdSize="Banner"
+                           HorizontalOptions="StartAndExpand" 
+                           VerticalOptions="Center"  
+                           HeightRequest="50"   
+                           IsVisible="True"
+                           IsEnabled="True"
+                           WidthRequest="300"
+                           BackgroundColor="Transparent"
+                           AdsId="ca-app-pub-8236433593467251/9930623074" />
+
+
+    </Grid>
+
+</ContentPage>
