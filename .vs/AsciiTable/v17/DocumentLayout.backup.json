@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\git\\maui\\new\\AsciiTable\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|c:\\git\\maui\\new\\asciitable\\asciitable2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|solutionrelative:asciitable2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|c:\\git\\maui\\new\\asciitable\\asciitable2\\asciitable.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|solutionrelative:asciitable2\\asciitable.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|c:\\git\\maui\\new\\asciitable\\asciitable2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|solutionrelative:asciitable2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|c:\\git\\maui\\new\\asciitable\\asciitable2\\asciitable.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -48,7 +48,7 @@
         },
         {
           "DockedWidth": 76,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,11 +71,12 @@
               "ToolTip": "C:\\git\\maui\\new\\AsciiTable\\AsciiTable2\\AsciiTable.csproj",
               "RelativeToolTip": "AsciiTable2\\AsciiTable.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-07T00:41:17.09Z"
+              "WhenOpened": "2025-03-07T00:41:17.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AsciiTable.csproj",
               "DocumentMoniker": "C:\\git\\maui\\new\\AsciiTable\\AsciiTable2\\AsciiTable.csproj",
               "RelativeDocumentMoniker": "AsciiTable2\\AsciiTable.csproj",
@@ -83,7 +84,8 @@
               "RelativeToolTip": "AsciiTable2\\AsciiTable.csproj",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-07T00:23:58.038Z"
+              "WhenOpened": "2025-03-07T00:23:58.038Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -99,13 +101,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\git\\maui\\new\\AsciiTable\\AsciiTable2\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "AsciiTable2\\MainPage.xaml.cs",
               "ToolTip": "C:\\git\\maui\\new\\AsciiTable\\AsciiTable2\\MainPage.xaml.cs",
               "RelativeToolTip": "AsciiTable2\\MainPage.xaml.cs",
-              "ViewState": "AgIAAOoAAAAAAAAAAAAYwIYAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAYwIYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T22:02:44.307Z",
               "EditorCaption": ""
