@@ -17561,7 +17561,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "2.0.1",
+    "version": "2.0.5",
     "restore": {
       "projectUniqueName": "C:\\git\\maui\\play\\AsciiTable\\AsciiTable2\\AsciiTable.csproj",
       "projectName": "AsciiTable",
@@ -17646,6 +17646,40 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Android.Ref.34",
+            "version": "[34.0.147, 34.0.147]"
+          },
+          {
+            "name": "Microsoft.Android.Runtime.34.android-arm",
+            "version": "[34.0.147, 34.0.147]"
+          },
+          {
+            "name": "Microsoft.Android.Runtime.34.android-arm64",
+            "version": "[34.0.147, 34.0.147]"
+          },
+          {
+            "name": "Microsoft.Android.Runtime.34.android-x64",
+            "version": "[34.0.147, 34.0.147]"
+          },
+          {
+            "name": "Microsoft.Android.Runtime.34.android-x86",
+            "version": "[34.0.147, 34.0.147]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.13, 8.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.13, 8.0.13]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.13, 8.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.Android": {
             "privateAssets": "all"

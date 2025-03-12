@@ -11,10 +11,6 @@
       "RelativeMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|solutionrelative:asciitable2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|c:\\git\\maui\\play\\asciitable\\asciitable2\\asciitable.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|solutionrelative:asciitable2\\asciitable.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|c:\\git\\maui\\play\\asciitable\\asciitable2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|solutionrelative:asciitable2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -39,12 +35,16 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{936b24b7-e640-3186-98a7-24307bb298e0}"
             }
           ]
         },
         {
           "DockedWidth": 76,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -60,38 +60,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AsciiTable",
-              "DocumentMoniker": "C:\\git\\maui\\play\\AsciiTable\\AsciiTable2\\AsciiTable.csproj",
-              "RelativeDocumentMoniker": "AsciiTable2\\AsciiTable.csproj",
-              "ToolTip": "C:\\git\\maui\\play\\AsciiTable\\AsciiTable2\\AsciiTable.csproj",
-              "RelativeToolTip": "AsciiTable2\\AsciiTable.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-07T00:41:17.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AsciiTable.csproj",
               "DocumentMoniker": "C:\\git\\maui\\play\\AsciiTable\\AsciiTable2\\AsciiTable.csproj",
               "RelativeDocumentMoniker": "AsciiTable2\\AsciiTable.csproj",
               "ToolTip": "C:\\git\\maui\\play\\AsciiTable\\AsciiTable2\\AsciiTable.csproj",
               "RelativeToolTip": "AsciiTable2\\AsciiTable.csproj",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-03-07T00:23:58.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\git\\maui\\play\\AsciiTable\\AsciiTable2\\MainPage.xaml",
               "RelativeDocumentMoniker": "AsciiTable2\\MainPage.xaml",
               "ToolTip": "C:\\git\\maui\\play\\AsciiTable\\AsciiTable2\\MainPage.xaml",
               "RelativeToolTip": "AsciiTable2\\MainPage.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFQAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-11T16:32:41.587Z",
               "EditorCaption": ""
@@ -104,7 +92,7 @@
               "RelativeDocumentMoniker": "AsciiTable2\\MainPage.xaml.cs",
               "ToolTip": "C:\\git\\maui\\play\\AsciiTable\\AsciiTable2\\MainPage.xaml.cs",
               "RelativeToolTip": "AsciiTable2\\MainPage.xaml.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAYwIYAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T22:02:44.307Z",
               "EditorCaption": ""

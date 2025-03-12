@@ -5,6 +5,7 @@ using Bumptech.Glide.Load.Model;
 using CommunityToolkit.Maui.Alerts;
 using CommunityToolkit.Maui.Core;
 using Microsoft.Maui.Controls.Compatibility.Platform.Android;
+using Plugin.MauiMTAdmob;
 using Plugin.MauiMTAdmob.Controls;
 using Plugin.MauiMTAdmob.Extra;
 using static AndroidX.Room.FtsOptions;
@@ -131,7 +132,7 @@ namespace AsciiTable
 
                 var adView = new MTAdView()
                 {
-                    AdsId = "ca-app-pub-3940256099942544/6300978111",
+                    AdsId = "ca-app-pub-8236433593467251/9930623074",
                     AdSize =BannerSize.FullBanner,
                     HorizontalOptions = LayoutOptions.FillAndExpand,
                     VerticalOptions = LayoutOptions.FillAndExpand,
@@ -233,7 +234,7 @@ namespace AsciiTable
 
                 var adView = new MTAdView()
                 {
-                    AdsId = "ca-app-pub-3940256099942544/6300978111",
+                    AdsId = "ca-app-pub-8236433593467251/9930623074",
                     AdSize = BannerSize.FullBanner,
                     HorizontalOptions = LayoutOptions.FillAndExpand,
                     VerticalOptions = LayoutOptions.FillAndExpand,
@@ -247,49 +248,56 @@ namespace AsciiTable
                 Grid.SetRow(adView, 4);
                 Grid.SetColumnSpan(adView, 2);
 
-
             }
         }
 
         private void btnConvertToAsc_Clicked(object sender, EventArgs e)
         {
-            if (!String.IsNullOrEmpty(txtCharEntry.Text.ToString().Trim()))
+            if (txtCharEntry.Text != null)
             {
-                string letra = txtCharEntry.Text;
-                int a = (int)letra[0];
-                txtAscEntry.Text = a.ToString();
-            }
+                CrossMauiMTAdmob.Current.LoadInterstitial("ca-app-pub-8236433593467251/4891162775");
+                CrossMauiMTAdmob.Current.ShowInterstitial();
+                if (!String.IsNullOrEmpty(txtCharEntry.Text.ToString().Trim()))
+                {
+                    string letra = txtCharEntry.Text;
+                    int a = (int)letra[0];
+                    txtAscEntry.Text = a.ToString();
+                }
+            }            
         }
 
         private void btnConvertToChar_Clicked(object sender, EventArgs e)
         {
-            if (!String.IsNullOrEmpty(txtAscEntry.Text.ToString().Trim()))
+            if (txtAscEntry.Text != null)
             {
-                int ascii = 0;
-                ToastDuration duration = ToastDuration.Short;
-                double fontSize = 14;
-                var toast = Toast.Make("Invalid value!!", duration, fontSize);
-                CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
-                try
+                if (!String.IsNullOrEmpty(txtAscEntry.Text.ToString().Trim()))
                 {
-                    ascii = Convert.ToInt32(txtAscEntry.Text.ToString().Trim());
-                }
-                catch (Exception)
-                {
-                    toast.Show(cancellationTokenSource.Token);
-                }
-                if (ascii != 0)
-                {
-                    if (ascii > 0 && ascii < 256)
+                    int ascii = 0;
+                    ToastDuration duration = ToastDuration.Short;
+                    double fontSize = 14;
+                    var toast = Toast.Make("Invalid value!!", duration, fontSize);
+                    CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+                    try
                     {
-                        txtCharEntry.Text = Convert.ToString((char)ascii);
+                        ascii = Convert.ToInt32(txtAscEntry.Text.ToString().Trim());
                     }
-                    else
+                    catch (Exception)
                     {
                         toast.Show(cancellationTokenSource.Token);
                     }
+                    if (ascii != 0)
+                    {
+                        if (ascii > 0 && ascii < 256)
+                        {
+                            txtCharEntry.Text = Convert.ToString((char)ascii);
+                        }
+                        else
+                        {
+                            toast.Show(cancellationTokenSource.Token);
+                        }
+                    }
                 }
-            }
+            }                        
         }
 
         private void ToolbarItem_Clicked(object sender, EventArgs e)
