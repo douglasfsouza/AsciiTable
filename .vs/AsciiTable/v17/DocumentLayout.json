@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\git\\maui\\play\\AsciiTable\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|c:\\git\\maui\\play\\asciitable\\asciitable2\\asciitable.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|solutionrelative:asciitable2\\asciitable.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|c:\\git\\maui\\play\\asciitable\\asciitable2\\asciitable.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|solutionrelative:asciitable2\\asciitable.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|c:\\git\\maui\\play\\asciitable\\asciitable2\\asciitable.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{70563875-5540-4EF0-A705-C9A274996CFE}|AsciiTable2\\AsciiTable.csproj|solutionrelative:asciitable2\\asciitable.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 405,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,8 +41,12 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{13b29bd0-3807-335c-9cad-ba55364c29cb}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AsciiTable",
               "DocumentMoniker": "C:\\git\\maui\\play\\AsciiTable\\AsciiTable2\\AsciiTable.csproj",
               "RelativeDocumentMoniker": "AsciiTable2\\AsciiTable.csproj",
@@ -53,18 +57,14 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{35a13b2b-183b-3ec5-a509-0bd77da1a60c}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AsciiTable",
+              "DocumentIndex": 0,
+              "Title": "AsciiTable.csproj",
               "DocumentMoniker": "C:\\git\\maui\\play\\AsciiTable\\AsciiTable2\\AsciiTable.csproj",
               "RelativeDocumentMoniker": "AsciiTable2\\AsciiTable.csproj",
               "ToolTip": "C:\\git\\maui\\play\\AsciiTable\\AsciiTable2\\AsciiTable.csproj",
               "RelativeToolTip": "AsciiTable2\\AsciiTable.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-07-03T15:19:55.675Z",
               "EditorCaption": ""
