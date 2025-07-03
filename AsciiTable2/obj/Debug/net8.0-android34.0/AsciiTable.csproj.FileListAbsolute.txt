@@ -589,7 +589,6 @@ C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\ass
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\assets\_Microsoft.Android.Resource.Designer.dll
-C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\typemaps.arm64-v8a.ll
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\AndroidManifest.xml
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\AndroidManifest.xml
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\src\mono\MonoRuntimeProvider.java
@@ -599,7 +598,6 @@ C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\bin
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\static.flag
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\__environment__.txt
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\buildid.txt
-C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\environment.arm64-v8a.ll
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\src\androidx\activity\ktx\R.java
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\src\androidx\activity\R.java
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\src\androidx\annotation\experimental\R.java
@@ -1164,13 +1162,6 @@ C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\src
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\bin\packaged_resources
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\src\com\companyname\asciitable\R.java
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\_CompileJava.FileList.txt
-C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\compressed_assemblies.arm64-v8a.ll
-C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\typemaps.arm64-v8a.o
-C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\environment.arm64-v8a.o
-C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\compressed_assemblies.arm64-v8a.o
-C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\marshal_methods.arm64-v8a.o
-C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\jni_remap.arm64-v8a.o
-C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\bin\classes.dex
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\bin\classes2.dex
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\stamp\_CleanIntermediateIfNeeded.stamp
@@ -1181,3 +1172,12 @@ C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\stamp\_Conv
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\stamp\_GenerateJavaStubs.stamp
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\stamp\_GeneratePackageManagerJava.stamp
 C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\stamp\_ResolveLibraryProjectImports.stamp
+C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\typemaps.x86_64.ll
+C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\environment.x86_64.ll
+C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\compressed_assemblies.x86_64.ll
+C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\typemaps.x86_64.o
+C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\environment.x86_64.o
+C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\compressed_assemblies.x86_64.o
+C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\marshal_methods.x86_64.o
+C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\android\jni_remap.x86_64.o
+C:\git\maui\play\AsciiTable\AsciiTable2\obj\Debug\net8.0-android34.0\app_shared_libraries\x86_64\libxamarin-app.so

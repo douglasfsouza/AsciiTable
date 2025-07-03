@@ -13,13 +13,13 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("AsciiTable")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.2+d174a215a00749ec434d5db771a8752eba643976")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.6.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.6+3e28f190b753ed317846626ca2639e3b70866eb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("AsciiTable")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AsciiTable")]
-[assembly: System.Reflection.AssemblyVersionAttribute("2.0.2.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("2.0.6.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Android34.0")]
-[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Android30.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Android29.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 
